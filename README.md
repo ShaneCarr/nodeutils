@@ -8,14 +8,15 @@
 - npm install -g csvtojson 
 - sudo apt-get install npm jq 
 - csvtojson production_yammertestone_25k_load_test.csv > parsedusers.json
- 
+
 ## jwt io decode
 
 [link](https://www.npmjs.com/package/jwt-cli)
-- jwt <token here> 
- 
- ## getting a goken
- 
+
+- jwt "token here"
+
+## getting a goken
+
 ```bash
  curl -X POST https://login.microsoftonline.com/{tenant}/oauth2/token -F grant_type=client_credentials -F resource={resource} -F client_id={client_id} -F client_secret={client_secret}
 
@@ -28,11 +29,13 @@
 ## decode encode
 
 [link](https://www.npmjs.com/package/url-decode-encode-cli)
- 
+
  ```bash
+ npm install -g url-decode-encode-cli
 echo -n '{"foo": "bar"}' | url-encode # %7B%22foo%22%3A%20%22bar%22%7D
 echo -n '%7B%22foo%22%3A%20%22bar%22%7D' | url-decode # {"foo": "bar"}
 
 echo -n '{"foo": "bar"}' >some-file
 url-encode some-file # %7B%22foo%22%3A%20%22bar%22%7D
 ```
+
