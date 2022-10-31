@@ -28,3 +28,8 @@
 ## decode encode
 
 [link](https://www.npmjs.com/package/url-decode-encode-cli)
+echo -n '{"foo": "bar"}' | url-encode # %7B%22foo%22%3A%20%22bar%22%7D
+echo -n '%7B%22foo%22%3A%20%22bar%22%7D' | url-decode # {"foo": "bar"}
+
+echo -n '{"foo": "bar"}' >some-file
+url-encode some-file # %7B%22foo%22%3A%20%22bar%22%7D
