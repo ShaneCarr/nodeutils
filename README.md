@@ -1,7 +1,8 @@
 # nodeutils
 
 ## csv conversion
-(link)[https://github.com/ShaneCarr/node-csvtojson]
+
+[link](https://github.com/ShaneCarr/node-csvtojson)
 
 - npm install convert-csv-to-json --save 
 - npm install -g csvtojson 
@@ -10,7 +11,7 @@
  
 ## jwt io decode
 
-(link)[https://www.npmjs.com/package/jwt-cli]
+[link](https://www.npmjs.com/package/jwt-cli)
 - jwt <token here> 
  
  ## getting a goken
@@ -26,4 +27,4 @@
 
 ## decode encode
 
-(link)[https://www.npmjs.com/package/url-decode-encode-cli]
+[link](https://www.npmjs.com/package/url-decode-encode-cli)
